@@ -22,6 +22,10 @@ body{
     border-radius: 12px;
 }
 
+input, textarea {
+    margin-top: 12px;
+}
+
 img{
     margin-bottom: 8px;
     width: 75px;
