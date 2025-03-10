@@ -1,76 +1,78 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: hsl(0, 0%, 8%);
     min-height: 100vh;
     font-family: "Inter", sans-serif;
     display: grid;
-    justify-content: center;
-    align-content: center;
+    place-items: center;
 }
 
-.container{
+.container {
     background-color: hsl(0, 0%, 12%);
-    color: hwb(0 100% 0%);
-    margin: 400px;
+    color: white;
+    max-width: 350px;
     text-align: center;
     padding: 32px;
     border-radius: 12px;
 }
 
-input, textarea {
-    margin-top: 12px;
-}
-
-img{
+img {
     margin-bottom: 8px;
     width: 75px;
+    height: 75px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
-h1{
+h1 {
     font-size: 28px;
 }
 
-.location{
+.location {
     color: hsl(75, 94%, 57%);
     margin: 8px 0 24px;
     font-weight: 700;
 }
 
-ul{
+ul {
     margin-top: 28px;
 }
 
-.container li:not(:last-child){
+.container li:not(:last-child) {
     margin-bottom: 16px;
 }
 
-li{
+li {
     list-style-type: none;
-    margin: 0%;
-    padding: 0%;
 }
 
- li a{
+li a {
     display: block;
     color: hsl(0, 0%, 100%);
-    padding: 2px;
-    font-size: 600;
-    border-radius: 5px;
-    background-color:hsl(0, 0%, 20%)
-    ;
- }
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    transition: all 0.3s ease;
+}
 
- a{
+a {
     text-decoration: none;
- }
+}
 
-li a:hover{ 
-    background-color:hsl(75, 94%, 57%) ;
-    color: hsl(75, 94%, 57%);
+li a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
 }
